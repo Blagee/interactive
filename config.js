@@ -69,7 +69,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Start Line',
-            image: './interactive/denman.jpeg',
+            image: './interactive/denman.jpg',
             description: 'Begin your ride here at the bottom of Denman Street with your own bike, or with one you rented from any of the abundant bike shops nearby.',
             location: {
                 center: [-123.13247, 49.29357],
