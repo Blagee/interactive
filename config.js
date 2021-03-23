@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: false,
-    title: 'A Ride Around Stanley Park',
+    title: 'Experience the Stanley Park Seawall',
     subtitle: 'Take a ride around this world famous park',
     byline: 'By Blagee Zhuo',
     footer: 'Please remember to be respectful when cycling and always wear a helmet!',
