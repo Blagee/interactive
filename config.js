@@ -28,7 +28,7 @@ var config = {
                 {
                      layer: 'stanleypark',
                      opacity: 1,
-                 }
+                 },
                  {
                       layer: 'seawall',
                       opacity: 0,
