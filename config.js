@@ -43,7 +43,7 @@ var config = {
         },
         {
             id: 'seawall',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'The Seawall',
             image: 'https://images.dailyhive.com/20200410150010/biking-stanley-park-seawall.jpg',
@@ -69,7 +69,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Start Line',
-            image: 'http://ihikebc.com/trips/picsnew/2011/3744-View-From-Vancouver-Seawall-BC-Canada.JPG',
+            image: './interactive/denman.jpeg',
             description: 'Begin your ride here at the bottom of Denman Street with your own bike, or with one you rented from any of the abundant bike shops nearby.',
             location: {
                 center: [-123.13247, 49.29357],
