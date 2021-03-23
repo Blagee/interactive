@@ -6,7 +6,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false,
     title: 'A Ride Around Stanley Park',
-    subtitle: 'Let's take a ride around Vancouver's world famous park',
+    subtitle: 'Take a ride around this world famous park',
     byline: 'By Blagee Zhuo',
     footer: 'Please remember to be respectful when cycling and always wear a helmet!',
     chapters: [
@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Welcome to Stanley Park',
             image: 'https://vancouver.ca/images/cov/feature/stanley-park-entrace-landing.jpg',
-            description: 'Stanley Park is Vancouver's largest park and provides some of the most scenic opportunities in the lower mainland.',
+            description: 'Stanley Park is the largest park in Vancouver and provides some of the most scenic opportunities in the lower mainland.',
             location: {
                 center: [-123.11707, 49.26124],
                 zoom: 11.76,
@@ -60,6 +60,6 @@ var config = {
             ],
             onChapterExit: []
         },
-        
+
     ]
-}
+};
