@@ -1,62 +1,41 @@
-var config = {
-    style: 'mapbox://styles/branigan/cjz37rcb003ib1cr3s8rnkt2d',
-    accessToken: 'pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm01aG9hdTBlZGwzbXQ1ZXVrNHNmejAifQ.QHQA0N6XPWddCXtvoODHZg',
-    showMarkers: false,
-    theme: 'dark',
-    use3dTerrain: true,
-    title: 'Glaciers of Glacier National Park',
-    subtitle: 'Change in coverage from 1998 to 2015',
-    byline: '',
-    footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
+  style: 'mapbox://styles/blageez/ckmlk74s54pfe17lkzld4z9yu',
+    accessToken: 'pk.eyJ1IjoiYmxhZ2VleiIsImEiOiJja2xyZWdnbWQwM2tiMnhtZ3F3bnRwMHZ1In0.Vp1ls4rsuKWABYadlgrhZw',
+    showMarkers: true,
+    markerColor: '#3FB1CE',
+    theme: 'light',
+    use3dTerrain: false,
+    title: 'A Ride Around Stanley Park',
+    subtitle: 'Let's take a ride around Vancouver's world famous park',
+    byline: 'By Blagee Zhuo',
+    footer: 'Please remember to be respectful and always wear a helmet!',
     chapters: [
         {
-            id: 'glacier-np',
-            alignment: 'full',
-            title: 'Glacier National Park Glaciers',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg/800px-2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg',
-            description: 'Glacier National Park is dominated by mountains which were carved into their present shapes by the huge glaciers of the last ice age...',
+            id: 'stanleypark',
+            alignment: 'left',
+            hidden: false,
+            title: 'Welcome to Stanley Park',
+            image: 'https://vancouver.ca/images/cov/feature/stanley-park-entrace-landing.jpg',
+            description: 'Stanley Park is Vancouver's largest park and provides some of the most scenic opportunities in the lower mainland.',
             location: {
-                center: [-113.91666, 48.66451],
-                zoom: 8,
-                pitch: 0.00,
-                bearing: 0.00
+                center: [-122.418398, 37.759483],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: 0
             },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
             onChapterEnter: [
-                {
-                    layer: 'gnpglaciers-1998',
-                    opacity: 0.25
-                },
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0.25
-                }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
             ],
             onChapterExit: [
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0
-                }
-            ]
-        },
-        {
-            id: 'harrison1998',
-            alignment: 'left',
-            title: 'Harrison Glacier, 1998',
-            image: '',
-            description: 'Harrison Glacier is located in the US state of Montana in Glacier National Park. Situated on a southeast facing ridge immediately south of Mount Jackson, Harrison Glacier is the largest glacier in Glacier National Park...',
-            location: {
-                center: [-113.72917, 48.58938],
-                zoom: 12.92,
-                pitch: 39.50,
-                bearing: 36.00
-            },
-            onChapterEnter: [],
-            onChapterExit: [
                 // {
-                //     layer: 'gnpglaciers-2015',
+                //     layer: 'layer-name',
                 //     opacity: 0
                 // }
             ]
-        }
-    ]
-}
+        },
