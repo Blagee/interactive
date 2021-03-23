@@ -10,92 +10,54 @@ var config = {
     byline: 'By Blagee Zhuo',
     footer: 'Please remember to be respectful to others and always wear a helmet!',
     chapters: [
-        {
-            id: 'seawall',
-            alignment: 'left',
-            hidden: false,
-            title: 'Display Title',
-            image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+       {
+            id: 'glacier-np',
+            alignment: 'full',
+            title: 'Glacier National Park Glaciers',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg/800px-2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg',
+            description: 'Glacier National Park is dominated by mountains which were carved into their present shapes by the huge glaciers of the last ice age...',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: 0
+                center: [-113.91666, 48.66451],
+                zoom: 8,
+                pitch: 0.00,
+                bearing: 0.00
             },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                    layer: 'gnpglaciers-1998',
+                    opacity: 0.25
+                },
+                {
+                    layer: 'glaciernp-boundary',
+                    opacity: 0.25
+                }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'glaciernp-boundary',
+                    opacity: 0
+                }
             ]
         },
         {
-            id: 'other-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            id: 'harrison1998',
+            alignment: 'left',
+            title: 'Harrison Glacier, 1998',
+            image: '',
+            description: 'Harrison Glacier is located in the US state of Montana in Glacier National Park. Situated on a southeast facing ridge immediately south of Mount Jackson, Harrison Glacier is the largest glacier in Glacier National Park...',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2
+                center: [-113.72917, 48.58938],
+                zoom: 12.92,
+                pitch: 39.50,
+                bearing: 36.00
             },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
             onChapterEnter: [],
-            onChapterExit: []
-        }
-        {
-            id: 'other-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        }
-        {
-            id: 'other-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterExit: [
+                // {
+                //     layer: 'gnpglaciers-2015',
+                //     opacity: 0
+                // }
+            ]
         }
     ]
-};
+}
