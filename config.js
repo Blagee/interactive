@@ -1,16 +1,15 @@
 var config = {
-    style: 'mapbox://styles/blageez/ckmlk74s54pfe17lkzld4z9yu',
-    accessToken: 'pk.eyJ1IjoiYmxhZ2VleiIsImEiOiJja2xyZWdnbWQwM2tiMnhtZ3F3bnRwMHZ1In0.Vp1ls4rsuKWABYadlgrhZw',
-    showMarkers: true,
-    markerColor: '#3FB1CE',
-    theme: 'light',
-    use3dTerrain: false,
-    title: 'A Ride Around the Stanley Park Seawall',
-    subtitle: 'Let's take a bike around Vancouver's famous Stanley Park',
-    byline: 'By Blagee Zhuo',
-    footer: 'Please remember to be respectful to others and always wear a helmet!',
+    style: 'mapbox://styles/branigan/cjz37rcb003ib1cr3s8rnkt2d',
+    accessToken: 'pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm01aG9hdTBlZGwzbXQ1ZXVrNHNmejAifQ.QHQA0N6XPWddCXtvoODHZg',
+    showMarkers: false,
+    theme: 'dark',
+    use3dTerrain: true,
+    title: 'Glaciers of Glacier National Park',
+    subtitle: 'Change in coverage from 1998 to 2015',
+    byline: '',
+    footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
-       {
+        {
             id: 'glacier-np',
             alignment: 'full',
             title: 'Glacier National Park Glaciers',
