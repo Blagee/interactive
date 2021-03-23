@@ -1,17 +1,17 @@
 var config = {
-    style: 'mapbox://styles/mapbox/outdoors-v11',
+    style: 'mapbox://styles/blageez/ckmlk74s54pfe17lkzld4z9yu',
     accessToken: 'pk.eyJ1IjoiYmxhZ2VleiIsImEiOiJja2xyZWdnbWQwM2tiMnhtZ3F3bnRwMHZ1In0.Vp1ls4rsuKWABYadlgrhZw',
     showMarkers: true,
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: false,
-    title: 'A Ride Around Stanley Park',
-    subtitle: 'Let's take a ride around Vancouver's world famous park',
+    title: 'A Ride Around the Stanley Park Seawall',
+    subtitle: 'Let's take a bike around Vancouver's famous Stanley Park',
     byline: 'By Blagee Zhuo',
-    footer: 'Source: source citations, etc.',
+    footer: 'Please remember to be respectful to others and always wear a helmet!',
     chapters: [
         {
-            id: 'slug-style-id',
+            id: 'seawall',
             alignment: 'left',
             hidden: false,
             title: 'Display Title',
