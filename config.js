@@ -118,23 +118,6 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'alongpath',
-            alignment: 'left',
-            hidden: true,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [-123.14068, 49.31328],
-                zoom: 14.75,
-                pitch: 53.50,
-                bearing: -129.58
-            },
-            mapAnimation: 'flyTo',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'siwash',
             alignment: 'right',
             hidden: false,
@@ -156,7 +139,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Third Beach',
-            image: 'https://images.dailyhive.com/20200410150010/biking-stanley-park-seawall.jpg',
+            image: 'https://fionaandjon.files.wordpress.com/2011/07/third-beach.jpg',
             description: 'Tucked away from the hustle and bustle, Third Beach is a wonderful place to spend time relaxing in the sun and maybe going for a swim.',
             location: {
                 center: [-123.15960, 49.30529],
