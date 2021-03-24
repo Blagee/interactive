@@ -118,23 +118,6 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'alongpath',
-            alignment: 'left',
-            hidden: true,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [-123.14068, 49.31328],
-                zoom: 14.75,
-                pitch: 53.50,
-                bearing: -129.58
-            },
-            mapAnimation: 'flyTo',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'siwash',
             alignment: 'right',
             hidden: false,
