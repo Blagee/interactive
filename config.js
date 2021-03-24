@@ -138,7 +138,7 @@ var config = {
             id: 'siwash',
             alignment: 'right',
             hidden: false,
-            title: "Siwash Rock, also known as 'Slhx̱í7lsh'"",
+            title: "Siwash Rock, also known as 'Slhx̱í7lsh'",
             image: 'https://windows10spotlight.com/wp-content/uploads/2020/02/1161748a90f4389c03cd62f9176f06b3-1024x576.jpg',
             description: 'This iconic rock feature, known in the Squamish language as Slhx̱í7lsh, stands tall in the water off the seawall. A lone tree sits atop the seastack formed by millenia of erosion.',
             location: {
