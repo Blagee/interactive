@@ -9,7 +9,7 @@ var config = {
     title: 'A Ride Around Stanley Park',
     subtitle: 'Take a ride around this world famous park',
     byline: 'By Blagee Zhuo',
-    footer: 'Please remember to be respectful when cycling and always wear a helmet!',
+    footer: 'During these extraordinary times, please stay safe and wear a mask. Please remember to be respectful when cycling and always wear a helmet!',
     chapters: [
         {
             id: 'stanleypark',
@@ -118,10 +118,27 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'alongpath',
+            alignment: 'left',
+            hidden: true,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [-123.14068, 49.31328],
+                zoom: 14.75,
+                pitch: 53.50,
+                bearing: -129.58
+            },
+            mapAnimation: 'flyTo',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'siwash',
             alignment: 'right',
             hidden: false,
-            title: "Siwash Rock, also known as 'Slhx̱í7lsh'",
+            title: "Siwash Rock, also known as 'Slhx̱í7lsh'"",
             image: 'https://windows10spotlight.com/wp-content/uploads/2020/02/1161748a90f4389c03cd62f9176f06b3-1024x576.jpg',
             description: 'This iconic rock feature, known in the Squamish language as Slhx̱í7lsh, stands tall in the water off the seawall. A lone tree sits atop the seastack formed by millenia of erosion.',
             location: {
@@ -185,8 +202,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Lost Lagoon',
-            image: 'https://images.dailyhive.com/20200410150010/biking-stanley-park-seawall.jpg',
-            description: 'The seawall is a 10km path that wraps around Stanley Park and offers a refreshing way to experience both land and sea.',
+            image: 'https://i.pinimg.com/originals/9b/61/84/9b6184f14a96e243b3177c31811b8951.jpg',
+            description: 'The last major feature along the bike path is Lost Lagoon: a beautiful manmade lake that is home to several different species of birds, including ducks, Canada geese, and non-native swans.',
             location: {
                 center: [-123.14441, 49.29448],
                 zoom: 16.10,
@@ -197,7 +214,7 @@ var config = {
             onChapterEnter: [
               {
                    layer: 'lostlagoon',
-                   opacity: 0.5,
+                   opacity: 0.4,
                }
             ],
             onChapterExit: [
@@ -208,12 +225,12 @@ var config = {
             ]
         },
         {
-            id: 'seawall',
-            alignment: 'right',
+            id: 'finish',
+            alignment: 'left',
             hidden: false,
-            title: 'The Seawall',
-            image: 'https://images.dailyhive.com/20200410150010/biking-stanley-park-seawall.jpg',
-            description: 'The seawall is a 10km path that wraps around Stanley Park and offers a refreshing way to experience both land and sea.',
+            title: 'The Finish Line',
+            image: './sunset.jpg',
+            description: "A ride around the seawall only takes around an hour, but you can easily spend a day enjoying all that Stanley Park has to offer. There's plenty to explore, and many delicious options for a meal after a day out. ",
             location: {
                 center: [-123.14278, 49.30072],
                 zoom: 13.86,
@@ -230,6 +247,5 @@ var config = {
             ],
             onChapterExit: []
         },
-
     ]
 }
